@@ -4,7 +4,7 @@ def add_item():
     name = input("Enter item name: ").lower()
     quantity = int(input(f"Enter quantity for {name}: "))
     
-    # If item exists, update quantity; otherwise, create it
+    # If item exists, update quantity; else , create it
     if name in inventory:
         inventory[name] += quantity
     else:
