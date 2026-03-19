@@ -31,3 +31,5 @@ print(my_bank.deposit(12000))
 print(my_bank.withdraw(30000))
 print(my_bank.get_balance())
 print(my_bank.customer_details())
+
+
